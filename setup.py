@@ -86,7 +86,7 @@ setup(
     description="Python interface to twitter-korean-text, a Korean morphological analyzer.",
     cmdclass={
         'install': InstallCommand,
-    }
+    },
     install_requires=[
         "JPype1==0.7.5"
 )
