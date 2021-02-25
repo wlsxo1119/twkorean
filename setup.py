@@ -55,7 +55,7 @@ setup(
         ],
     },
     install_requires=[
-        "JPype1"
+        "JPype1==0.7.5"
     ],
     author="Jaepil Jeong",
     author_email="jaepil@{nospam}appspand.com",
