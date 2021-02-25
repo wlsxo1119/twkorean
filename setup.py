@@ -54,9 +54,6 @@ setup(
             "data/lib/*.jar",
         ],
     },
-    install_requires=[
-        "JPype1==0.7.5"
-    ],
     author="Jaepil Jeong",
     author_email="jaepil@{nospam}appspand.com",
     url="https://github.com/jaepil/twkorean/",
@@ -90,4 +87,6 @@ setup(
     cmdclass={
         'install': InstallCommand,
     }
+    install_requires=[
+        "JPype1==0.7.5"
 )
