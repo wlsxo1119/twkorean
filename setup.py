@@ -88,5 +88,5 @@ setup(
         'install': InstallCommand,
     },
     install_requires=[
-        "JPype1==0.7.5"]
+        "JPype1==1.4.0"]
 )
